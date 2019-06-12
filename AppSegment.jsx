@@ -6,7 +6,7 @@ import Header from './Header';
 const AppSegment = ({children}) => {
   return <div>
     <Header />
-    <section className='grid-container'>
+    <section className='grid-container margin-top-4'>
       {children}
     </section>
     <Footer />
